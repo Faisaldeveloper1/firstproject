@@ -1,0 +1,9 @@
+https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png
+
+https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png
+
+font awesome cdn- <link rel="stylesheet"href="https://pro.fontawesome.com/release/v5.10.0/css/all.css"integrity="sha384-AYmEC3Yw5cVb3ZcuHt0A93w35dYTsvhLPVnY
+s9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+src="https://kit.fontawesome.com/c4338603d0.js" crossorigin="anonymous"></script>   
+edureka!
