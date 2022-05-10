@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Josefin+Sans:wght@200&family=Lobster&family=Pacifico&family=Prompt:ital,wght@0,300;1,400&family=Tapestry&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*css variable*/
+
+:root {
+    --navbar-height: 59px;
+}
+
+
+/*Navigation bar*/
+
+#navbar {
+    display: flex;
+    position: relative;
+    top: 0px;
+    text-align: center;
+}
+
+
+/*Navigation bar :logo and image*/
+
+#logo {
+    margin: 0px 0px;
+}
+
+#logo img {
+    height: 60px;
+    width: 60px;
+    margin: 3px 4px;
+    margin-left: 20px;
+}
+
+
+/*Navigation bar :list styling*/
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar::before {
+    content: "";
+    background-color: grey;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 18px 20px;
+    margin: auto;
+    display: block;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+
+/*home section*/
+
+.foot {
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+}
+
+
+/* heading logo*/

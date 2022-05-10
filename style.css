@@ -89,7 +89,7 @@
 
 #home::before {
     content: "";
-    background: url('bacg1.jpg') no-repeat center;
+    background: url('images/bacg1.jpg') no-repeat center;
     background-size: 100% 100%;
     position: absolute;
     opacity: 0.8;
@@ -168,4 +168,24 @@
     text-align: center;
     color: gray;
     font-weight: bold;
+}
+
+
+/* heading logo*/
+
+#logo1 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(144 225 28 / 70%);
+    border-radius: 50%;
+}
+
+#logo1>span {
+    position: absolute;
+    margin-left: 1.5%;
+    margin-top: 1%;
+    font-size: 50px;
+    font-family: cursive;
+    color: white;
+    font-weight: bolder;
 }
