@@ -16,56 +16,174 @@
 
     <nav id="navbar">
         <div id="logo">
-            <img src="images/pic.png" alt="Foodie point" />
+            <img src="images/logo.png" alt="Foodie point" />
+        </div>
+        <div id="social">
+            <a href="http://facebook.com/faisalali" target="_blank">
+                <img src="images/insta logo.png" alt="fb" class="slogo">
+            </a>
+            <a href="www.facebook.com" target="_blank">
+                <img src="https://i.ibb.co/w07K2Vn/youtube1.png" alt="fb" class="slogo" />
+            </a>
+
         </div>
         <ul>
-            <li class="item"><a href="">Home</a></li>
-            <li class="item"><a href="">Dishes</a></li>
-            <li class="item"><a href="">About Us</a></li>
-            <li class="item"><a href="">Contact Us</a></li>
+            <li class="item"><a href="home.html">Home</a></li>
+            <li class="item"><a href="dishes.html">Dishes</a></li>
+            <li class="item"><a href="about.html">About Us</a></li>
+            <li class="item"><a href="contact.html">Contact Us</a></li>
 
         </ul>
     </nav>
 
-    <!--home section-->
-    <section id="home">
-        <div id="logo1">
-            <span>FJ</span>
-        </div>
-        </div>
-        <h1 class="h-primary">Welcome To Foodie Junction </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente unde voluptatibus iste fugit </p>
-        <p>adipisci aliquid cupiditate vel id saepe quidem, dicta facere modi quo? </p>
-        <button class="btn">Order Now</button>
-    </section>
+    <!--search section-->
 
+    <div id="search">
+        <div id="container">
+            <div id="logo1">
+                <span>FJ</span>
+                <h1 id="spanname">Foodie Junction</h1>
+            </div>
+            <div id="heading">
+                Find the best restaurant near you
+            </div>
+            <div class="dropdown">
+                <select>
+                    <option>-----Select Your CITY----- </option>
+                    <option>Begusarai</option>
+                    <option>Patna</option>
+                    <option>Delhi</option>
+                </select>
+                <select class="restSelect"> 
+                    <option>-----Select Restaurants-----</option>
+                    <option>Kanchan</option>
+                    <option>Raj Darbar</option>
+                    <option>Foodie Junction</option>
+                 </select>
+
+            </div>
+        </div>
+    </div>
     <!--service section-->
-    <section id="service-container">
-        <h1 class="service-heading">Our Services</h1>
-        <div class="services">
-            <div class="box">
-                <img src="images/bgs.jpg" alt="pizza">
-                <h2 class="h2-secondary">Order Pizza</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic aspernatur obcaecati deleniti dicta nihil dolores deserunt suscipit velit tempora inventore, vitae quisquam iste ipsa doloremque!</p>
+
+    <div id="quicksearch">
+        <span id="quickheading">Quick Search</span>
+        <span id="quicksubheading">Search Restaurants By Meal</span>
+
+        <div id="main">
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="images/1.jpg" alt="dinner">
+                </div>
+
+                <div class="tilecomponent2">
+                    <div class="tileheading">
+                        <a href="listing.html">Dinner </a>
+                    </div>
+                    <div class="tilesubheading">
+                        Best Dinner Dishes we have
+                    </div>
+                </div>
             </div>
-            <div class="box">
-                <img src="images/bf.jpg" alt="pizza">
-                <h2 class="h2-secondary">Barbecue
-                </h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic aspernatur obcaecati deleniti dicta nihil dolores deserunt suscipit velit tempora inventore, vitae quisquam iste ipsa doloremque!</p>
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="images/2.png" alt="fast food">
+                </div>
+
+                <div class="tilecomponent2">
+                    <div class="tileheading">
+                        <a href="listing.html">Fast food </a>
+                    </div>
+                    <div class="tilesubheading">
+                        Best delicious Chinese fast food available here.
+                    </div>
+                </div>
             </div>
-            <div class="box">
-                <img src="images/delivery boy.png" alt="pizza">
-                <h2 class="h2-secondary">Fast Delivery</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic aspernatur obcaecati deleniti dicta nihil dolores deserunt suscipit velit tempora inventore, vitae quisquam iste ipsa doloremque!</p>
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="images/3.jpg" alt="lunch">
+                </div>
+
+                <div class="tilecomponent2">
+                    <div class="tileheading">
+                        <a href="listing.html">Lunch </a>
+                    </div>
+                    <div class="tilesubheading">
+                        A complete meal for afternoon meal
+                    </div>
+                </div>
+            </div>
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="images/bf.jpg" alt="Party">
+                </div>
+
+                <div class="tilecomponent2">
+                    <div class="tileheading">
+                        <a href="listing.html">Party</a>
+                    </div>
+                    <div class="tilesubheading">
+                        A place for party and wedding reception
+                    </div>
+                </div>
+            </div>
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="images/delivery boy.png" alt="delivery">
+                </div>
+
+                <div class="tilecomponent2">
+                    <div class="tileheading">
+                        <a href="listing.html">Delivery </a>
+                    </div>
+                    <div class="tilesubheading">
+                        We Provide a fast delivery at your door step
+                    </div>
+                </div>
+            </div>
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="images/contac.jpg" alt="Contact us">
+                </div>
+
+                <div class="tilecomponent2">
+                    <div class="tileheading">
+                        <a href="listing.html">Contact us </a>
+                    </div>
+                    <div class="tilesubheading">
+                        Make a call for order
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
-    <footer class="foot">&copy;Foodie Juntion</footer>
+    </div>
 
+    <!-- footer section-->
+    <footer>
+        <p id="footertext">&copyFoodieJunction</p>
+        <hr/>
+        <div id="footdiv">
+            <p>About us</p>
+            <p>contact us</p>
+        </div>
+        <div id="footdiv">
+            <p>For Restaurant</p>
+            <p>Apps for You</p>
+        </div>
+        <div id="footdiv">
+            <h3 id="foothead">Social links</h3>
+            <i class="sc-rbbb40" size="22" color="#1C1C1C"><svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="22" height="22" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 cvuzKA"><path d="M0 10C0 4.5 4.5 0 10 0C15.5 0 20 4.5 20 10C20 15.5 15.5 20 10 20C4.5 20 0 15.5 0 10ZM10.0625 8.125V8.5L9.6875 8.4375C8.3125 8.25 7.125 7.6875 6.125 6.6875L5.625 6.1875L5.5 6.5625C5.25 7.375 5.375 8.25 5.9375 8.8125C6.25 9.125 6.1875 9.1875 5.6875 9C5.5 8.9375 5.375 8.875 5.3125 8.9375C5.25 9 5.4375 9.6875 5.5625 9.9375C5.75 10.3125 6.1875 10.6875 6.5625 10.875L6.9375 11.0625H6.5C6.0625 11.0625 6.0625 11.0625 6.125 11.25C6.3125 11.75 6.875 12.25 7.5625 12.5L8 12.6875L7.625 12.9375C7 13.3125 6.3125 13.5 5.625 13.5C5.3125 13.5 5 13.5625 5 13.5625C5 13.625 5.9375 14.0625 6.4375 14.25C8.0625 14.75 9.9375 14.5 11.375 13.6875C12.375 13.0625 13.375 11.875 13.875 10.75C14.125 10.125 14.375 9 14.375 8.5C14.375 8.1875 14.4375 8.125 14.8125 7.6875C15.0625 7.4375 15.3125 7.1875 15.3125 7.0625C15.375 6.9375 15.375 6.9375 15 7.0625C14.375 7.3125 14.25 7.25 14.625 6.875C14.875 6.625 15.125 6.1875 15.125 6.0625C15.125 6.0625 15 6.0625 14.875 6.125C14.75 6.1875 14.4375 6.3125 14.1875 6.375L13.8125 6.5L13.5 6.25C13.3125 6.125 13 5.9375 12.875 5.9375C12.5 5.8125 11.9375 5.8125 11.5625 6C10.5625 6.25 10 7.1875 10.0625 8.125Z"></path></svg></i>
+
+            <i class="sc-rbbb40-1" size="22" color="#1C1C1C"><svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="22" height="22" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 cvuzKA"><path d="M0 10C0 4.5 4.5 0 10 0C15.5 0 20 4.5 20 10C20 15.5 15.5 20 10 20C4.5 20 0 15.5 0 10ZM15.1875 7.4375C15.0625 7 14.6875 6.625 14.25 6.5C13.4375 6.25 10.1875 6.25 10.1875 6.25C10.1875 6.25 6.9375 6.25 6.125 6.5C5.6875 6.625 5.3125 7 5.1875 7.4375C5 8.25 5 10 5 10C5 10 5 11.75 5.25 12.5625C5.375 13 5.75 13.375 6.1875 13.5C7 13.75 10.25 13.75 10.25 13.75C10.25 13.75 13.5 13.75 14.3125 13.5C14.75 13.375 15.125 13 15.25 12.5625C15.5 11.75 15.5 10 15.5 10C15.5 10 15.4375 8.25 15.1875 7.4375ZM9.25 11.75V8.5L11.875 10.125L9.25 11.75Z"></path></svg></i>
+
+            <i class="sc-rbbb40-1" size="22" color="#1C1C1C"><svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="22" height="22" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 cvuzKA"><path d="M0 10C0 4.5 4.5 0 10 0C15.5 0 20 4.5 20 10C20 15.5 15.5 20 10 20C4.5 20 0 15.5 0 10ZM10.75 15.4375V10.1875H12.1875L12.375 8.375H10.75V7.5C10.75 7.0625 10.8125 6.8125 11.5 6.8125H12.375V5H10.9375C9.1875 5 8.625 5.875 8.625 7.3125V8.375H7.5V10.1875H8.5625V15.4375C8.5625 15.4375 10.75 15.4375 10.75 15.4375Z"></path></svg></i>
+        </div>
+
+    </footer>
 
 
 
 </body>
+
 
 </html>
